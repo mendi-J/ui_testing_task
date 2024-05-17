@@ -42,6 +42,7 @@ The report is generated using cypress-mochawesome-reporter.
 
 GitHub Actions is used for the pipeline configuration. The event trigger is configured to run the automated test using GitHub Actions triggered on every push to the repository.
 To run the test, make a push to the repository, and the pipeline will be triggered and start running automatically.
+To monitor or check the status of the pipeline runs, click on the **Actions** tab to see the workflow.
 
 ### Author:
 
