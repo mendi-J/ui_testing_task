@@ -1,32 +1,50 @@
-**UI Automated Test Task:**
-  This repository contains automated UI tests for the provided task.
+## UI Automated Test Task:
 
-**Pre-requisites:**
-  Node.js 18+
+This repository contains automated UI tests for the provided task.
 
-**Running Tests Locally**
+## Pre-requisites:
 
-  **Clone this repository:**
-  git clone https://github.com/mendi-J/ui_testing_task.git
-  
-**Navigate to the project directory:**
-  cd ui_testing_task
-  
-**Install Dependencies:**
-  npm install
-  
-**Run Tests:**
-  To run the tests, execute the following command. This command will run, generate, and open the test report in your default browser.
+Node.js 18+
 
-**Generate report:**
-  The report is generated using cypress-mochawesome-reporter.
+## Running Tests Locally\*\*
 
-**Running Tests in GitHub Action CI/CD Pipeline:**
-  GitHub Actions is used for the pipeline configuration. The event trigger is configured to run the automated test using GitHub Actions triggered on every push to the repository.
-  To run the test, make a push to the repository, and the pipeline will be triggered and start running automatically.
+### Clone this repository:
 
-**Author:**
-  Ndifreke Jacob 
+```bash
+git clone https://github.com/mendi-J/ui_testing_task.git
+```
 
-  **Username:**
-  Username: @Mendi-J
+### Navigate to the project directory:
+
+`bash cd ui_testing_task `
+
+### Install Dependencies:
+
+```bash
+npm install
+```
+
+### Run Tests:
+
+To run the tests, execute the following command.
+
+```bash
+npm run script
+```
+
+This command will run, generate, and open the test report in your default browser.
+
+### Generate report:
+
+The report is generated using cypress-mochawesome-reporter.
+
+### Running Tests in GitHub Action CI/CD Pipeline:
+
+GitHub Actions is used for the pipeline configuration. The event trigger is configured to run the automated test using GitHub Actions triggered on every push to the repository.
+To run the test, make a push to the repository, and the pipeline will be triggered and start running automatically.
+
+### Author:
+
+| Name           | GitHub   | LinkedIn       |
+| -------------- | -------- | -------------- |
+| Ndifreke Jacob | @Mendi-J | Ndifreke Jacob |
